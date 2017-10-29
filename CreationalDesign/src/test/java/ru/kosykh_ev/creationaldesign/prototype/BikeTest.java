@@ -24,7 +24,7 @@ public class BikeTest {
      * Test of getModel method, of class Bike.
      */
     @Test
-    public void testPrototype() {
+    public void testPrototype() throws CloneNotSupportedException {
         Bike bike = new Bike();
         Bike basicBike = bike.clone();
         

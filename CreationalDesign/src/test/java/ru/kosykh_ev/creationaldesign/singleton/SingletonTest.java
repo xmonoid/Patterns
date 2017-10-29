@@ -49,7 +49,7 @@ public class SingletonTest {
         
         Singleton s1 = Singleton.getInstance();
         
-        Class clazz = Class.forName("ru.kosykh_ev.creationaldesign.Singleton");
+        Class clazz = Class.forName("ru.kosykh_ev.creationaldesign.singleton.Singleton");
         Constructor<Singleton> constructor = clazz.getDeclaredConstructor();
         constructor.setAccessible(true);
         constructor.newInstance();
